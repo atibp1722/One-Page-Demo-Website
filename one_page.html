@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!--BOOTSTRAP CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+        <!-- FONT AWESOME COMPONENTS-->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet" />
+
+        <title>Home Page</title>
+        
+        <style type="text/css">
+            .jumbotron{
+                background-image: url(back.jpg);
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                min-height: 100vh;
+            }
+            section{
+                padding-top:3rem;
+            }
+            #newsletter{
+                padding-top: 0rem;
+            }
+            #description{
+                padding-top: 0rem;
+            }
+            body{
+                font-family: 'Open Sans', sans-serif;
+            }
+            h1, h2, h3, h4,h5, h6{
+                font-family: 'Rubik', sans-serif;
+            }
+        </style>
+        
+    </head>
+    
+    <body data-spy="scroll" data-target="#navScrollspy">
+        
+        <!-- MENU TOOGLER -->
+        <nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
+            <a href="#" class="navbar-brand"><i class="fa fa-fw fa-industry" aria-hidden="true"></i>Company Name</a>
+            <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria- controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collpase navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="navScrollspy">
+                    <li class="nav-item">
+                        <a href="#top" class="nav-link">To Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#description" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#trailer" class="nav-link">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#showcase" class="nav-link">Our Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- JUMBOTRON COMPONENTS SECTION -->
+        <section id="top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+            <div class="container text-center">
+                <h1 class="display-1 text-primary text-uppercase">Product Name</h1>
+                <p class="dispaly-4 d-none d-sm-block">Your company slogan/motto</p>
+                <p class="lead">Gave read use way make spot how nor thinking was be done.</p>
+                <p class="lead">Domestic confined any but son bachelor advanced remember.</p>
+                <p><strong>Download Now on </strong></p>
+                <a href="#" class="btn btn-lg btn-primary"><i class="fa fa-apple" aria-hidden="true"></i> App Store</a>
+                <a href="#" class="btn btn-lg btn-primary"><i class="fa fa-android" aria-hidden="true"></i> Play Store</a>
+            </div>
+        </section>
+
+        <!-- DESCRIPTION SECTION -->
+        <div class="container">
+            <section id="description">
+                <h2 class="display-4 text-center">What is your product?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, 2000 years ago.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </section>
+
+            <!-- VIDEO SECTION -->
+            <section id="trailer">
+                <h2 class="display-4 text-center">Product Trailer</h2>
+                <p class="text-center">Watch our trailer to see how the product actually works.</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mSKlPhNDLPo" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!-- WORKS DONE SECTION -->
+            <section id="showcase">
+                <h2 class="display-4 text-center">Our Works</h2>
+                <p class="text-center">Some of our best projects.</p>
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                        <li data-target="#carousel" data-slide-to="3"></li>
+                    </ul>
+                    <div class="carousel-inner" rele="listbox">
+                        <div class="carousel-item active">
+                            <img src="qwerty1.jpg" alt="slider image" class="b-block img-fluid" />
+                            <div class="carousel-caption">
+                                <h3 class="display-4">Image Caption</h3>
+                                <p>Some information regarding the image #1.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="qwerty1.jpg" alt="slider image" class="b-block img-fluid" />
+                            <div class="carousel-caption">
+                                <h3 class="display-4">Image Caption</h3>
+                                <p>Some information regarding the image #2.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="qwerty2.jpg" alt="slider image" class="b-block img-fluid" />
+                            <div class="carousel-caption">
+                                <h3 class="display-4">Image Caption</h3>
+                                <p>Some information regarding the image #3.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="qwerty3.jpg" alt="slider image" class="b-block img-fluid" />
+                            <div class="carousel-caption">
+                                <h3 class="display-4">Image Caption</h3>
+                                <p>Some information regarding the image ##4.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- FEATURES SECTION -->
+            <section id="features">
+                <h2 class="display-4 text-center">Features</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                        <div class="h1"><i class="fa fa-user-o mb-4 text-info" aria-hidden="true"></i></div>
+                        <h3 class="h4 mb-4 text-center">Awesome Intgrated UI</h3>
+                        <p>Some lines about the new integrated UI.</p>
+                        <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                        <div class="h1"><i class="fa fa-search mb-4 text-info" aria-hidden="true"></i></div>
+                        <h3 class="h4 mb-4 text-center">Enhanced SEO &amp; CMS</h3>
+                        <p>Some lines about the new SEO and CMS features.</p>
+                        <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                        <div class="h1"><i class="fa fa-area-chart mb-4 text-info" aria-hidden="true"></i></div>
+                        <h3 class="h4 mb-4 text-center">Data Analytics &amp; Review</h3>
+                        <p>Some lines about data analytics and performance review.</p>
+                        <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+                        <div class="h1"><i class="fa fa-database mb-4 text-info" aria-hidden="true"></i></div>
+                        <h3 class="h4 mb-4 text-center">Easy Backup &amp; Maintainence</h3>
+                        <p>Some lines about the backup and maintainenece.</p>
+                        <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRICING SECTION -->
+            <section id="pricing">
+                <h2 class="display-4 text-center">Our Pricing Plans</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card card-outline-success">
+                            <div class="card-header bg-success text-white text-center">
+                                <h2>Starter</h2>
+                                <h4>100% Free</h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Perfect for learner/starter pack.</p>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item"><i class="fa fa-fw fa-tasks" aria-hidden="true"></i> Starter Plan Feature #1</li>
+                                <li class="list-group-item"><i class="fa fa-fw fa-tasks" aria-hidden="true"></i> Starter Plan Feature #2</li>
+                            </ul>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-success btn-lg">Select Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card card-outline-warning">
+                            <div class="card-header bg-warning text-white text-center">
+                                <h2>Professional</h2>
+                                <h4>$149.99</h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Perfect for mutiple projects.</p>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item"><i class="fa fa-fw fa-universal-access" aria-hidden="true"></i> Prefessional Plan Feature #1</li>
+                                <li class="list-group-item"><i class="fa fa-fw fa-universal-access" aria-hidden="true"></i> Professional Plan Feature #2.</li>
+                                <li class="list-group-item"><i class="fa fa-fw fa-universal-access" aria-hidden="true"></i> Professional Plan Feature #3.</li>
+                            </ul>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-warning btn-lg">Select Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card card-outline-danger">
+                            <div class="card-header bg-danger text-white text-center">
+                                <h2>Enterprise</h2>
+                                <h4>$379.99</h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Perfect for enterprise projects.</p>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item"><i class="fa fa-fw fa-cloud-upload" aria-hidden="true"></i> Enterprise Plan Feature #1</li>
+                                <li class="list-group-item"><i class="fa fa-fw fa-cloud-upload" aria-hidden="true"></i> Enterprise Plan Feature #2.</li>
+                                <li class="list-group-item"><i class="fa fa-fw fa-cloud-upload" aria-hidden="true"></i> Enterprise Plan Feature #3.</li>
+                                <li class="list-group-item"><i class="fa fa-fw fa-cloud-upload" aria-hidden="true"></i> Enterprise Plan Feature #4.</li>
+                            </ul>
+                            <div class="card-footer text-center">
+                                <a href="#" class="btn btn-danger btn-lg">Select Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- REVIEWS SECTION -->
+            <section id="reviews">
+                <h2 class="display-4 text-center">Client Reviews</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <blockquote class="blockquote p-3">
+                            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>Review #1</p><i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i>
+                            <footer class="blockquote-footer">Reviewer #1<time datetime="2019-05-17T16:46"> (May 17 2019 16:46)</time></footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <blockquote class="blockquote p-3">
+                            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>Review #2</p><i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i>
+                            <footer class="blockquote-footer">Reviewer #2<time datetime="2019-06-27T12:36"> (May 27 2019 12:36)</time></footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <blockquote class="blockquote p-3">
+                            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>Review #3</p><i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i>
+                            <footer class="blockquote-footer">Reviewer #3<time datetime="2019-07-19T10:06"> (July 19 2019 10:06)</time></footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <blockquote class="blockquote p-3">
+                            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>Review #4</p><i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i>
+                            <footer class="blockquote-footer">Reviewer #4<time datetime="2019-07-29T11:06"> (July 29 2019 11:06)</time></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- SIGNUP SECTION -->
+        <section id="newsletter" class="bg-secondary">
+            <div class="container">
+                <form class="py-5 text-white">
+                    <h2 class="text-center">Signup to Our Newsletter</h2>
+                    <p>Recieve the latest news, updates and offers by signing up to our newlsetter.</p>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="input-name" class="sr-only">Your Full Name:</label>
+                                <input type="text" class="form-control" placeholder="Firstname Lastname" id="input-name" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <label for="input-email" class="sr-only">Your E-mail Address:</label>
+                                <input type="email" class="form-control" placeholder="example123@mail.com" id="input-email" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" id="input-terms" value="terms" />
+                            I have read hereby accept the <a href="#" data-toggle="modal" data-target="#modal">Terms and Conditions.</a>
+                        </label>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <small class="form-text">You can unsubscribe at any time.</small>
+                        <button type="submit" class="btn btn-dark">Sign Up</button>
+                    </div>
+                </form>
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalTitle">Terms &amp; Conditions</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                                    distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                                    model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
+                                    and the like).
+                                </p>
+                                <p>
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+                                    undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                    theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                </p>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+                                    predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem
+                                    Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                                </p>
+                                <p>
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+                                    exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION -->
+        <footer class="bg-light">
+            <div class="container py-3 py-sm-5">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h6>Quick Links</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">What's New?</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Cancel Subscription</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h6>Information</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Carrers</a></li>
+                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Partnership</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h6>Follow Us</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+                            <li><a href="#"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i>Youtube</a></li>
+                            <li><a href="#"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+                            <li><a href="#"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h6>Our Location</h6>
+                        <address>
+                            <strong>Company Name</strong><br />
+                            35 Pennsylvenia Avenue<br />
+                            Pennsylvenia, NY 10115<br />
+                            <i class="fa fa-fw fa-phone" aria-hidden="true"></i><span class="sr-only">Telephone</span><abbr title="Telephone">T:</abbr><a href="tel:+1300767325">(300) 767-325</a><br />
+                            <i class="fa fa-fw fa-inbox" aria-hidden="true"></i><span class="sr-only">Email</span><abbr title="Mail">M:</abbr><a href="mailto:info@domain.com">info@domain.com</a><br />
+                        </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-9">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">&copy; 2019 Company Name, Inc.</li>
+                            <li class="list-inline-item">All Rights Reserved &reg;</li>
+                            <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#modal"> Privacy and Terms of Use.</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="dropdown dropup">
+                            <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-fw fa-language" aria-hidden="true"></i>Change Language</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a href="#" class="dropdown-item small px-1">Nepali</a>
+                                <a href="#" class="dropdown-item small px-1">Spanish</a>
+                                <a href="#" class="dropdown-item small px-1">German</a>
+                                <a href="#" class="dropdown-item small px-1">French</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
